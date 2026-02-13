@@ -107,44 +107,6 @@ bun test
 
 Returns shipping rates. Authentication required.
 
-#### Example Request
-
-```bash
-curl -X POST http://localhost:3000/api/v1/rates/shop \
-  -H "Content-Type: application/json" \
-  -d '{
-    "origin": {
-      "postalCode": "10001",
-      "countryCode": "US"
-    },
-    "destination": {
-      "postalCode": "90210",
-      "countryCode": "US"
-    },
-    "packages": [
-      {
-        "dimensions": {
-          "height": 10,
-          "width": 10,
-          "length": 10
-        },
-        "weight": {
-          "value": 5
-        }
-      }
-    ]
-  }'
-```
-
-#### Example Response
-
-```json
-{
-  "success": true,
-  "data": {}
-}
-```
-
 ---
 
 ## Future Improvements
