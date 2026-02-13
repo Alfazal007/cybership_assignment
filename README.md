@@ -120,3 +120,4 @@ Response:
    - Use a database to store real users
    - Have endpoints for users to signup and signin
    - Right now the structure is the service makes requests on behalf of users but there is no information of user being stored, so if I had more time, I would have created signup and signin requests and store user info
+```
