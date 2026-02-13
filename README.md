@@ -1,4 +1,3 @@
-```markdown
 # Carrier Integration Service
 
 A TypeScript and Express backend service that integrates with the UPS Rating API to provide shipping rates.
